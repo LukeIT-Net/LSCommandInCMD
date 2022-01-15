@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ls", "ls\ls.csproj", "{F7C9D845-3BD2-4427-AD1F-9D2A2E6C7DAB}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "LSCommandSetup", "LSCommandSetup\LSCommandSetup.aiproj", "{6C5FA44A-7E5C-4D50-A819-2C2D205E1CEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C9D845-3BD2-4427-AD1F-9D2A2E6C7DAB}.All|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C9D845-3BD2-4427-AD1F-9D2A2E6C7DAB}.All|Any CPU.Build.0 = Debug|Any CPU
+		{F7C9D845-3BD2-4427-AD1F-9D2A2E6C7DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C9D845-3BD2-4427-AD1F-9D2A2E6C7DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C9D845-3BD2-4427-AD1F-9D2A2E6C7DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C9D845-3BD2-4427-AD1F-9D2A2E6C7DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5FA44A-7E5C-4D50-A819-2C2D205E1CEE}.All|Any CPU.ActiveCfg = DefaultBuild
+		{6C5FA44A-7E5C-4D50-A819-2C2D205E1CEE}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{6C5FA44A-7E5C-4D50-A819-2C2D205E1CEE}.Release|Any CPU.ActiveCfg = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCA1DCB9-ACBA-4E85-8AA9-3E35E651E685}
+	EndGlobalSection
+EndGlobal
