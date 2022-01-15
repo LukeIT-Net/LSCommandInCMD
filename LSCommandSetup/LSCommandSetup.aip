@@ -17,10 +17,10 @@
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install the [|ProductName]." ValueLocId="*"/>
     <ROW Property="Manufacturer" Value="LukeIT"/>
-    <ROW Property="ProductCode" Value="1033:{6880C78E-8421-4D23-AD71-C0D05F218B9B} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{433EA205-1EBC-4322-AEBC-5EB13F8E613F} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="ls Command"/>
-    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="ProductVersion" Value="1.0.1" Type="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{2E3EC586-76E4-496A-94FA-4EB4EA9E8D42}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
@@ -136,7 +136,7 @@
     <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
-    <ROW Environment="Path" Name="=-Path" Value="[~];[APPDIR]" Component_="APPDIR"/>
+    <ROW Environment="Path" Name="=*Path" Value="[~];[APPDIR]" Component_="APPDIR"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
     <ROW Feature_="MainFeature" Component_="APPDIR"/>
